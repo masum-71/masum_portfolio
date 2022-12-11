@@ -62,12 +62,16 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a
-          href="/"
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
           className="btn btn-ghost normal-case text-xl text-[#64FFDA] font-mono"
         >
           Masum Billah
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

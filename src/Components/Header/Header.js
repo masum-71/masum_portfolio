@@ -3,7 +3,7 @@ import resume from "../../resume/MasumBillah.pdf";
 
 const Header = () => {
   return (
-    <div className="font-mono py-20">
+    <div id="home" className="font-mono py-20">
       <p className="text-[#64FFDA] mb-5">Hi, My Name is</p>
       <p className="lg:text-7xl md:text-5xl sm:text-3xl text-2xl text-[#CCD6F6] mb-5 font-serif">
         Masum Billah.
