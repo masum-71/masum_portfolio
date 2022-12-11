@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-scroll";
 import resume from "../../resume/MasumBillah.pdf";
 const Navbar = () => {
   return (
-    <div className="navbar text-white font-mono">
+    <div className="navbar z-10 text-white font-mono fixed top-0 left-0">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,12 +27,38 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
           >
             <li>
-              <a href="/">About</a>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About
+              </Link>
             </li>
 
             <li>
-              <a href="/">Work</a>
-              <a href="/">Contact</a>
+              <Link
+                to="work"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Work
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -45,14 +72,32 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="hover:text-[#64FFDA]">
-            <a href="/about">About</a>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About
+            </Link>
           </li>
 
           <li className="hover:text-[#64FFDA]">
-            <a href="/">Work</a>
+            <Link to="work" spy={true} smooth={true} offset={50} duration={500}>
+              Work
+            </Link>
           </li>
           <li className="hover:text-[#64FFDA]">
-            <a href="/">Contact</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

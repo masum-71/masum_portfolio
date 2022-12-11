@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="py-20">
-      <h4 className="text-[#CCD6F6] text-2xl mb-10">About Me</h4>
+    <div id="about" className="py-20">
+      <h4 className="text-[#CCD6F6] text-2xl mb-10 underline">About Me</h4>
       <div className="md:grid md:grid-cols-2 gap-10">
         <div className="mb-10">
           <p className="text-[#8892B0] mb-5">

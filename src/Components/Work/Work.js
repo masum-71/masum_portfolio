@@ -1,13 +1,23 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import reader from "../../images/projects/readersHub/reader.png";
+import tech from "../../images/projects/tech/tech.png";
+import photography from "../../images/projects/photography/photography.png";
 
 const Work = () => {
   return (
-    <div className="py-20">
-      <h3 className="text-[#CCD6F6] text-2xl mb-10">Some Of My Works</h3>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
+    <div id="work" className="py-20">
+      <h3 className="text-[#CCD6F6] text-2xl mb-10 underline">
+        Some Of My Works
+      </h3>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
         <div className="bg-[#112240] p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <a href="https://readers-hub-5e5ab.web.app/">
+          <a
+            href="https://readers-hub-5e5ab.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="rounded-lg mb-5" src={reader} alt="" />
             <div>
               <p className="text-3xl text-[#CCD6F6] mb-3">Reader's Hub</p>
               <p className="flex items-center text-[#8892B0] mb-3">
@@ -28,10 +38,17 @@ const Work = () => {
             </div>
           </a>
         </div>
-        <div className="bg-[#112240] p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <a href="https://tech-hero-da85f.web.app/courses">
+        <div className="bg-[#112240] p-5 transition shadow-lg ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+          <a
+            href="https://tech-hero-da85f.web.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="rounded-lg mb-5" src={tech} alt="" />
             <div>
-              <p className="text-3xl text-[#CCD6F6] mb-3">Tech Hero</p>
+              <p className="text-3xl text-[#CCD6F6] mb-3 hover:text-[#64FFDA]">
+                Tech Hero
+              </p>
               <p className="flex items-center text-[#8892B0] mb-3">
                 {" "}
                 <FaArrowRight className="mr-2"></FaArrowRight>
@@ -50,7 +67,12 @@ const Work = () => {
           </a>
         </div>
         <div className="bg-[#112240] p-5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <a href="https://photography-d5719.web.app/">
+          <a
+            href="https://photography-d5719.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="rounded-lg mb-5" src={photography} alt="" />
             <div>
               <p className="text-3xl text-[#CCD6F6] mb-3">M's Photography</p>
               <p className="flex items-center text-[#8892B0] mb-3">
