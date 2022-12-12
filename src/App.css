@@ -7,3 +7,31 @@
   margin: auto;
   padding: 0 25px;
 }
+
+.vertical-r {
+  position: fixed;
+  bottom: 105px;
+  right: 50px;
+  writing-mode: vertical-lr;
+}
+
+.line-r {
+  width: 5px;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  right: 62px;
+}
+
+.vertical-l {
+  position: fixed;
+  bottom: 105px;
+  left: 50px;
+}
+.line-l {
+  width: 5px;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  left: 55px;
+}
