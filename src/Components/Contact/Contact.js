@@ -27,7 +27,7 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className="md:w-1/2 md:m-auto">
+    <div id="contact" className="md:w-1/2 md:m-auto mb-10">
       <h3 className="text-[#CCD6F6] text-2xl mb-10 underline">Contact Me</h3>
       <p className="text-[#8892B0] mb-5 ">
         I would love if you reached out of me. Even if it's just to say "Hi!".

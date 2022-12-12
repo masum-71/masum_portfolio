@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import { Toaster } from "react-hot-toast";
 import line from "../src/images/line.png";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
         <Work></Work>
         <Contact></Contact>
         <Toaster></Toaster>
-
-        <div className=" md:hidden lg:block">
+        <Footer></Footer>
+        <div className=" max-[768px]:hidden md:block">
           <div>
             <a
               className="text-[#64FFDA] vertical-r"

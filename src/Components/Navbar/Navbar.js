@@ -60,6 +60,9 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="hover:text-[#64FFDA]">
+              <Link to="/blog">Blog</Link>
+            </li>
           </ul>
         </div>
         <Link
@@ -102,6 +105,9 @@ const Navbar = () => {
             >
               Contact
             </Link>
+          </li>
+          <li className="hover:text-[#64FFDA]">
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </div>
